@@ -1,0 +1,14 @@
+
+/// A sample use of the utility functions IsAppInstalled();
+
+public ArrayList<String> funcIsAppInstalledCheckedList(ArrayList<String> aryTmpAppALL) {
+  ArrayList<String> tmpAry = new Array<>();
+  
+  for (String item: aryTmpAppALL) {
+    if (funcIsAppInstalled(item, this.pm /* pass in package manager */)) {
+      tmpAry.add(item);
+    }
+  }
+
+  return tmpAry;  /// returns an sub array of installed apps on device...
+}
