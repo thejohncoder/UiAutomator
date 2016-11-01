@@ -7,5 +7,6 @@
 
 # funcShutDownApp()  Shuts Down a running app specified by the PackageName.
 # funcStartUpApp()   Starts up a specified installed app by the PackageName.
-
+# funcIsTablet()     Boolean function to show if device is a tablet for testing purposes.
+# funcIsAppInstalled Boolean function to show if a given uri of an app is installed in current device.
 
