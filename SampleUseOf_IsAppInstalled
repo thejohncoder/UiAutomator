@@ -3,7 +3,7 @@
 
 /// input: pass in arraylist of string of App Uri that you want to check for thats installed
 /// output: you get back an arraylist of string of App Uri that is actually installed on device
-  /// ouptput: either its the same list or a subset of list...
+  /// ouptput: either its the same list (all submitted is installed) or a subset of submitted list of only installed apps...
   
 public ArrayList<String> funcIsAppInstalledCheckedList(ArrayList<String> aryTmpAppALL) {
   ArrayList<String> tmpAry = new Array<>();
