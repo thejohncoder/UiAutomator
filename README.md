@@ -9,4 +9,6 @@
 # funcStartUpApp()   Starts up a specified installed app by the PackageName.
 # funcIsTablet()     Boolean function to show if device is a tablet for testing purposes.
 # funcIsAppInstalled() Boolean function to show if a given uri of an app is installed on current device.
+# funcClicksPoint()  Clicks at point on the screen by custom number of times
+# funcClicksCenter() Clicks the center of the screen by custom number of times. This funciton calls funcClicksPoint()
 
