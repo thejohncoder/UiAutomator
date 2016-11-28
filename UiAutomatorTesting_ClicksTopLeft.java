@@ -3,7 +3,7 @@
   ///// intTimesClick: Input the times to click
   ///// intPaddingFromCorner: Provide offset or padding from the edge of the corner for the click point
     
-    
+  ///// This function calls funcClicksPoint() and may use the variable mDevice object.
     
     
     public void funcClickTopLeft(int intTimesClick, int intPaddingFromCorner) {
